@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Environment Viewer
+Type=Application
+Categories=System;Utility;Qt;Settings;
+GenericName=Environment Viewer
+Exec=envview
+Encoding=UTF-8
+Icon=/usr/share/icons/envview.png
+Comment=Displays current environment variables in graphical view
