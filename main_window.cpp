@@ -150,7 +150,7 @@ void EnvView::copyToClipboard(int what)
 void EnvView::onAbout()
 {
     QString applicationName = tr("Environment Viewer");
-    QString version = "1.0.0";
+    QString version = "1.0.1";
     QString aboutMessage = tr(
                 "Environment Viewer %1\n\n"
                 "Code by Oliver Anhuth\n\n"
