@@ -150,8 +150,9 @@ void EnvView::copyToClipboard(int what)
 void EnvView::onAbout()
 {
     QString applicationName = tr("Environment Viewer");
+    QString version = "1.0.0";
     QString aboutMessage = tr(
-                "Environment Viewer 0.5.\n\n"
+                "Environment Viewer %1\n\n"
                 "Code by Oliver Anhuth\n\n"
                 "Copyright (c) 2015 Oliver Anhuth\n\n"
                 "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and "
@@ -165,6 +166,6 @@ void EnvView::onAbout()
                 "NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND "
                 "NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES "
                 "OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN "
-                "CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.");
+                "CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.").arg(version);
     QMessageBox::about(this, applicationName, aboutMessage);
 }
