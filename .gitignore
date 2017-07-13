@@ -1,3 +1,11 @@
+# Non source code files
+EnvView.pro.user
+set-origins.sh
+aur/
+envview.spec
+make-pkg.sh
+*.tar.gz
+
 # Prerequisites
 *.d
 

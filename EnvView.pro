@@ -21,6 +21,5 @@ RESOURCES += \
 CONFIG += c++11
 
 DISTFILES += \
-    make-pkg.sh \
     configure \
-    PKGBUILD
+    install.make
