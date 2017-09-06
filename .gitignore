@@ -1,4 +1,5 @@
 # Non source code files
+CMakeLists.txt.user
 EnvView.pro.user
 set-origins.sh
 aur/
