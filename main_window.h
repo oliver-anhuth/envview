@@ -10,11 +10,10 @@ class EnvView : public QMainWindow
 public:
     using BaseClass = QMainWindow;
 
-    EnvView(QWidget *parent = 0);
-    ~EnvView();
+    explicit EnvView(QWidget *parent = nullptr);
 
 protected:
-    virtual void closeEvent(QCloseEvent *) override;
+    void closeEvent(QCloseEvent *) override;
 
 private:
     static constexpr const char * SettingGeometry = "Geometry";

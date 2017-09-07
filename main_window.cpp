@@ -111,10 +111,6 @@ EnvView::EnvView(QWidget * parent) : QMainWindow{parent}
     itsView->header()->restoreState(headerState);
 }
 
-EnvView::~EnvView()
-{
-}
-
 void EnvView::closeEvent(QCloseEvent * event)
 {
     QSettings settings;
